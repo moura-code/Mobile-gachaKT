@@ -10,6 +10,7 @@ fun main() {
     Lwjgl3Application(Main(), Lwjgl3ApplicationConfiguration().apply {
         setTitle("OhioGame")
         useVsync(true)
+
         //// Limits FPS to the refresh rate of the currently active monitor.
         setForegroundFPS(Lwjgl3ApplicationConfiguration.getDisplayMode().refreshRate)
         //// If you remove the above line and set Vsync to false, you can get unlimited FPS, which can be
